@@ -1,6 +1,6 @@
 # Personal Website - Chandan Sreedhara
 
-A clean, minimalist personal website showcasing research, projects, and professional experience.
+A clean, minimalist personal website showcasing research, projects, and professional experience. This website is creating with the help of Claude AI
 
 ## Setup Instructions
 
