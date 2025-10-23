@@ -7,27 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="header-content">
-                <div class="profile-section">
-                    <!-- Uncomment and add your photo -->
-                    <img src="profile.jpg" alt="Chandan Sreedhara" class="profile-photo">
-                    <div class="header-text">
-                        <h1>Chandan Sreedhara</h1>
-                        <p class="subtitle">Data Science Lead | AI Researcher</p>
-                        <p class="location">Amsterdam, Netherlands</p>
-                    </div>
-                </div>
+    <div class="page-wrapper">
+        <aside class="sidebar">
+            <div class="profile-section">
+                <img src="profile.jpg" alt="Chandan Sreedhara" class="profile-photo">
+                <h1>Chandan Sreedhara</h1>
+                <p class="subtitle">Data Science Lead | AI Researcher</p>
+                <p class="location">Amsterdam, Netherlands</p>
                 <nav>
                     <a href="mailto:mschandan96@gmail.com">Email</a>
                     <a href="https://github.com/chandanms" target="_blank">GitHub</a>
                     <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    <a href="cv.pdf" target="_blank">CV</a>
                 </nav>
             </div>
-        </header>
+        </aside>
 
-        <main>
+        <main class="content">
             <section class="intro">
                 <p>
                     I'm a Data Science Lead at Respiro B.V., working on machine learning for spectroscopy and anomaly detection. 
@@ -43,7 +39,7 @@
                     <p class="date">Respiro B.V. | 2025 - Present</p>
                     <p>
                         Training unsupervised autoencoder models for detecting unknown molecular compounds at ppb-to-ppm 
-                        concentrations from baseline air spectra. Working on generalized detection across diverse chemical 
+                        concentrations. Working on generalized detection across diverse chemical 
                         compounds without prior training on target molecules.
                     </p>
                 </div>
@@ -64,7 +60,6 @@
                     <li>Mechanistic Interpretability</li>
                     <li>Model Understanding & Explainability</li>
                     <li>Deep Learning for Scientific Applications</li>
-                    <li>Reinforcement Learning</li>
                     <li>Small Language Models</li>
                 </ul>
             </section>
@@ -95,84 +90,7 @@
                     </p>
                 </div>
             </section>
-
-            <section>
-                <h2>Selected Projects</h2>
-                
-                <div class="project">
-                    <h3>Multi-Agent LLM System for Healthcare</h3>
-                    <p class="date">Labelfuse B.V. | 2022 - 2025</p>
-                    <p>
-                        Built multi-agent LLM system for CDC and South African ministries, deploying across 5 healthcare 
-                        data warehouses with 80% improved time to analytics. Fine-tuned 14B parameter language model using 
-                        LoRA and DPO on 12,000 clinical query pairs, achieving sub-800ms inference latency.
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Deep RL for Musculoskeletal Prostheses</h3>
-                    <p class="date">University of Groningen | 2021 - 2022</p>
-                    <p>
-                        Master's thesis implementing PPO algorithm with imitation learning and bio-mechanical domain knowledge 
-                        to achieve 93% similarity with natural gait and 15% improved training speed.
-                    </p>
-                    <p class="links">
-                        <a href="#" target="_blank">Paper</a>
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Multi-Sensor Detection Pipeline for Drones</h3>
-                    <p class="date">Labelfuse B.V. | 2022 - 2025</p>
-                    <p>
-                        Developed scalable video processing platform for drone-based applications, achieving 96% accuracy 
-                        at 35 FPS on edge devices. Processed 500+ hours of footage for habitat mapping, leading to 
-                        partnerships with HP and Intel.
-                    </p>
-                    <p class="links">
-                        <a href="#" target="_blank">Case Study 1</a> | 
-                        <a href="#" target="_blank">Case Study 2</a>
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Surface Defect Detection</h3>
-                    <p class="date">Tata Steel Europe & University of Groningen | 2022</p>
-                    <p>
-                        Developed surface defect detection system achieving 92% accuracy through supervised ResNet18 model, 
-                        with automated pipeline for unlabeled images using MobileNet and Vision Transformers.
-                    </p>
-                    <p class="links">
-                        <a href="#" target="_blank">Paper</a>
-                    </p>
-                </div>
-            </section>
-
-            <section>
-                <h2>Education</h2>
-                <div class="education">
-                    <p><strong>MSc in Artificial Intelligence and Cognitive Science</strong></p>
-                    <p>University of Groningen, 2022</p>
-                </div>
-                <div class="education">
-                    <p><strong>BSc in Computer Science Engineering</strong></p>
-                    <p>Visvesvaraya Technological University, 2018</p>
-                </div>
-            </section>
-
-            <section>
-                <h2>Awards</h2>
-                <ul class="awards">
-                    <li>World Summit AI (2024) - Demonstrated Labelfuse product for real-time incident prevention</li>
-                    <li>Most Valuable Project Award - Summer of AI Internship, Tata Steel Europe (2022)</li>
-                    <li>Employee of the Year - Realment Labs (2019)</li>
-                </ul>
-            </section>
         </main>
-
-        <footer>
-            <p>Last updated: October 2025</p>
-        </footer>
     </div>
 </body>
 </html>
