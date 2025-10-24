@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page-wrapper">
-        <aside class="sidebar">
-            <div class="profile-section">
-                <img src="profile.jpg" alt="Chandan Sreedhara" class="profile-photo">
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Chandan Sreedhara" class="profile-photo">
+            <div class="header-text">
                 <h1>Chandan Sreedhara</h1>
                 <p class="subtitle">Data Science Lead | AI Researcher</p>
                 <p class="location">Amsterdam, Netherlands</p>
@@ -21,74 +21,65 @@
                     <a href="cv.pdf" target="_blank">CV</a>
                 </nav>
             </div>
-        </aside>
+        </header>
 
-        <main class="content">
-            <section class="intro">
+        <main>
+            <section>
                 <p>
-                    I'm a Data Science Lead at Respiro B.V., working on machine learning for spectroscopy and anomaly detection. 
-                    My research focuses on mechanistic interpretability, understanding how models work internally, and applying 
-                    deep learning to healthcare and scientific applications.
+                    I'm a researcher based in Amsterdam, Netherlands. My research focuses on understanding how models work internally and applying 
+                    deep learning to healthcare and scientific applications. I mainly work in developing interpretable models to help in accelerating research 
+                    and my career goal is to understand the nature of intelligence better.
+                </p>
+                <p>
+                    I am a Data Science lead at RespiQ, developing machine learning models and AI systems to build a smart healthcare monitoring device.
                 </p>
             </section>
 
             <section>
-                <h2>Current Work</h2>
-                <div class="project">
-                    <h3>Anomaly Detection in Plasma Emission Spectroscopy</h3>
-                    <p class="date">Respiro B.V. | 2025 - Present</p>
-                    <p>
-                        Training unsupervised autoencoder models for detecting unknown molecular compounds at ppb-to-ppm 
-                        concentrations. Working on generalized detection across diverse chemical 
-                        compounds without prior training on target molecules.
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h3>Gas Mixture Spectra Analysis</h3>
-                    <p class="date">Respiro B.V. | 2025 - Present</p>
-                    <p>
-                        Conducting comprehensive data analysis using PCA and PLS-DA for feature wavelength selection and 
-                        hardware drift characterization, achieving ppb-level limit of detection for VOC concentration measurements.
-                    </p>
-                </div>
-            </section>
-
-            <section>
-                <h2>Research Interests</h2>
-                <ul class="interests">
-                    <li>Mechanistic Interpretability</li>
-                    <li>Model Understanding & Explainability</li>
-                    <li>Deep Learning for Scientific Applications</li>
-                    <li>Small Language Models</li>
+                <p>What I'm doing now:</p>
+                <ul>
+                    <li>Anomaly Detection in Plasma Emission Spectroscopy - Training unsupervised autoencoder models for detecting unknown molecular compounds at Respiro. Working on generalized detection across diverse chemical compounds without prior training on target molecules.</li>
+                    <li>Gas Mixture Spectra Analysis - Characterizing hardware drift using machine learning models to improve the core technology.</li>
+                    <li>Healthcare Data Infrastructure - Building FAIR/GDPR compliant datalake for spectroscopy and clinical data.</li>
                 </ul>
             </section>
 
             <section>
-                <h2>Open Source Contributions</h2>
-                <div class="project">
-                    <h3>SimpleStories Dataset</h3>
-                    <p>
-                        Core contributor to an enhanced version of Anthropic's TinyStories for small language model training. 
-                        Built custom Llama implementation and model-as-a-judge evaluation framework. Co-authored research 
-                        paper submitted to NeurIPS 2025.
-                    </p>
-                    <p class="links">
-                        <a href="https://arxiv.org" target="_blank">arXiv</a> | 
-                        <a href="https://huggingface.co" target="_blank">Hugging Face</a>
-                    </p>
-                </div>
+                <p>Things I've built:</p>
+                
+                <p class="subsection">Open Source & Research</p>
+                <ul>
+                    <li>SimpleStories Dataset - Core contributor to a large-scale synthetic story dataset with 2 million samples. Developed custom Llama implementation and model-as-a-judge evaluation framework. The dataset addresses key limitations of TinyStories and demonstrates improved sample efficiency and model interpretability. Trained model suite includes the smallest-parameter language models capable of generating grammatical natural language. Co-authored research paper accepted at NeurIPS 2025 Dataset and Benchmark track. 
+                        <span class="links">
+                            (<a href="https://arxiv.org/pdf/2504.09184" target="_blank">arXiv</a>, 
+                            <a href="https://huggingface.co/SimpleStories" target="_blank">Hugging Face</a>, 
+                            <a href="https://github.com/simple-stories/" target="_blank">Github</a>)
+                        </span>
+                    </li>
+                    <li>OpenSim-RL Framework - Core contributor to framework for musculoskeletal simulation research using Reinforcement Learning with PPO at University of Groningen. 
+                        <span class="links">
+                            (<a href="https://github.com" target="_blank">GitHub</a>)
+                        </span>
+                    </li>
+                    <li>Deep RL for Musculoskeletal Prostheses - Gait simulation research implementing PPO with imitation learning and bio-mechanical domain knowledge. 
+                        <span class="links">
+                            (<a href="#" target="_blank">Paper</a>)
+                        </span>
+                    </li>
+                    <li>Surface Defect Detection System - Computer vision for industrial quality control at Tata Steel Europe using ResNet18 and Vision Transformers. 
+                        <span class="links">
+                            (<a href="#" target="_blank">Paper</a>)
+                        </span>
+                    </li>
+                </ul>
 
-                <div class="project">
-                    <h3>OpenSim-RL Framework</h3>
-                    <p>
-                        Core contributor to framework for musculoskeletal simulation research using Reinforcement Learning 
-                        with PPO at University of Groningen.
-                    </p>
-                    <p class="links">
-                        <a href="https://github.com" target="_blank">GitHub</a>
-                    </p>
-                </div>
+                <p class="subsection">Commercial Products</p>
+                <ul>
+                    <li>Multi-agent LLM System - Healthcare data analytics deployed across multiple data warehouses for CDC and South African ministries.</li>
+                    <li>Clinical Language Model - Fine-tuned large language model for medical query processing.</li>
+                    <li>Drone Detection Pipeline - Multi-sensor detection system for edge devices enabling habitat mapping partnerships with HP and Intel.</li>
+                    <li>Retail Analytics Platform - Computer vision and NLP system for real-time customer behavior analysis.</li>
+                </ul>
             </section>
         </main>
     </div>
